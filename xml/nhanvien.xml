@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DanhSach xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nhanvien.xsd">
+  <DanhSachNV>
+    <MNV>CD200967</MNV>
+    <tennhanvien>Nguyen Nhu Trung</tennhanvien>
+    <ngaysinh>12-09-2002</ngaysinh>
+    <diachi>Bac Ninh</diachi>
+    <namtuyendung>2020</namtuyendung>
+    <luong>15.500.000 vnd</luong>
+    <chucvu>Nhan vien</chucvu>
+  </DanhSachNV>
+  <DanhSachNV>
+    <MNV>CD203525</MNV>
+    <tennhanvien>Nguyen Dang Hung</tennhanvien>
+    <ngaysinh>26-11-2002</ngaysinh>
+    <diachi>Bac Ninh</diachi>
+    <namtuyendung>2020</namtuyendung>
+    <luong>14.500.000 vnd</luong>
+    <chucvu>Nhan vien</chucvu>
+  </DanhSachNV>
+  <DanhSachNV>
+    <MNV>CD151352</MNV>
+    <tennhanvien>Nguyen Van Muoi</tennhanvien>
+    <ngaysinh>12-09-1996</ngaysinh>
+    <diachi>Hai Phong</diachi>
+    <namtuyendung>2015</namtuyendung>
+    <luong>20.300.000 vnd</luong>
+    <chucvu>Truong phong</chucvu>
+  </DanhSachNV>
+  <DanhSachNV>
+    <MNV>CD163150</MNV>
+    <tennhanvien>Nguyen Nhu Trang</tennhanvien>
+    <ngaysinh>12-10-2000</ngaysinh>
+    <diachi>Ha Noi</diachi>
+    <namtuyendung>2016</namtuyendung>
+    <luong>15.500.000 vnd</luong>
+    <chucvu>Ke toan</chucvu>
+  </DanhSachNV>
+  <DanhSachNV>
+    <MNV>CD200325</MNV>
+    <tennhanvien>Tran Thu Ha</tennhanvien>
+    <ngaysinh>12-12-1999</ngaysinh>
+    <diachi>Ha Noi</diachi>
+    <namtuyendung>2020</namtuyendung>
+    <luong>15.500.000 vnd</luong>
+    <chucvu>Ke toan</chucvu>
+  </DanhSachNV>
+  <DanhSachNV>
+    <MNV>CD231525</MNV>
+    <tennhanvien>Hoang Thu Huong</tennhanvien>
+    <ngaysinh>28-02-2001</ngaysinh>
+    <diachi>Bac Giang</diachi>
+    <namtuyendung>2023</namtuyendung>
+    <luong>15.500.000 vnd</luong>
+    <chucvu>Nhan vien</chucvu>
+  </DanhSachNV>
+  <DanhSachNV>
+    <MNV>CD231525</MNV>
+    <tennhanvien>Hoang Thu Huong</tennhanvien>
+    <ngaysinh>28-02-2001</ngaysinh>
+    <diachi>Bac Giang</diachi>
+    <namtuyendung>2023</namtuyendung>
+    <luong>15.500.000 vnd</luong>
+    <chucvu>Nhan vien</chucvu>
+  </DanhSachNV>
+  <DanhSachNV>
+    <MNV>1</MNV>
+    <tennhanvien>1</tennhanvien>
+    <ngaysinh>1</ngaysinh>
+    <diachi>1</diachi>
+    <namtuyendung>1</namtuyendung>
+    <luong>1</luong>
+    <chucvu>1</chucvu>
+  </DanhSachNV>
+  <DanhSachNV>
+    <MNV>NV1</MNV>
+    <tennhanvien>nguyen van 1</tennhanvien>
+    <ngaysinh>20/20/2020</ngaysinh>
+    <diachi>ha noi</diachi>
+    <namtuyendung>2022</namtuyendung>
+    <luong>20303030</luong>
+    <chucvu>giam dioc</chucvu>
+  </DanhSachNV>
+  <DanhSachNV>
+    <MNV>NV2</MNV>
+    <tennhanvien>Nguyen Van V</tennhanvien>
+    <ngaysinh>20</ngaysinh>
+    <diachi/>
+    <namtuyendung/>
+    <luong/>
+    <chucvu/>
+  </DanhSachNV>
+  <DanhSachNV>
+    <MNV>NV1</MNV>
+    <tennhanvien/>
+    <ngaysinh/>
+    <diachi/>
+    <namtuyendung/>
+    <luong/>
+    <chucvu/>
+  </DanhSachNV>
+</DanhSach>

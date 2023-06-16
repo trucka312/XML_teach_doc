@@ -1,0 +1,11 @@
+<!DOCTYPE nhanvien [
+<!element nhanvien(thongtin)>
+<!element thongtin(MNV,tennhanvien,ngaysinh,diachi,namtuyendung,luong,chucvu)>
+<!element MNV(#PCDATA)>
+<!element tennhanvien(#PCDATA)>
+<!element ngaysinh(#PCDATA)>
+<!element diachi(#PCDATA)>
+<!element namtuyendung(#PCDATA)>
+<!element luong(#PCDATA)>
+<!element chucvu(#PCDATA)>
+]>

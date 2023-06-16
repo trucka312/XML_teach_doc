@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="SieuThi.xsl" type="text/xsl" ?>
+<SieuThi xmlns="" xmlns:xsd="http:www.w3.org/2001/XMLSchema" xsd:schemaLocation="SieuThi.xsd" >
+    <TenSieuThis>Winmart</TenSieuThi>
+    <DiaChi>Hai Ba Trung</DiaChi>
+    <SoDienThoai>0000000000</SoDienThoai>
+    <HangHoa MaHang="H01">
+        <TenHang>Mì Tôm </TenHang>
+        <LoaiHang>Khuyến Mại</LoaiHang>
+        <SoLuong>20</SoLuong>
+        <DonGia>200000</DonGia>
+    </HangHoa>
+
+    <HangHoa MaHang="H02">
+        <TenHang>Trứng </TenHang>
+        <LoaiHang>bình thường</LoaiHang>
+        <SoLuong>300</SoLuong>
+        <DonGia>4500</DonGia>
+    </HangHoa>
+
+    <HangHoa MaHang="H03">
+        <TenHang>Sữa Onoh Thọ</TenHang>
+        <LoaiHang>Khuyến Mại</LoaiHang>
+        <SoLuong>13</SoLuong>
+        <DonGia>21000</DonGia>
+    </HangHoa>
+</SieuThi>

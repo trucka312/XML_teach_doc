@@ -1,0 +1,11 @@
+<xsd:schema version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" elementFromDefault="qualified">
+    <xsd:element name="hanghoa">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="TenHangHoa" type="xsd:string" />
+                <xsd:element name="DiaChi" type="xsd:string" />
+
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

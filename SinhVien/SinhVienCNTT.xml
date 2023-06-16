@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsinhvien>
+    <info>Danh Sach Sinh Vien CNTT</info>
+    <sinhvien hoten="Nguyen Van Mot" diachi="Ha Noi" lop="LTMT2" mssv="SV01">
+        <monhoc tinchi="3" tenmh="Java 1" mamh="M01">8</monhoc>
+        <monhoc tinchi="3" tenmh="JavaScrip" mamh="M02">9</monhoc>
+        <monhoc tinchi="2" tenmh="Cau truc DL" mamh="M03">9</monhoc>
+        <monhoc tinchi="3" tenmh="Ki thuat lap trinh" mamh="M04">6</monhoc>
+        <monhoc tinchi="2" tenmh="tu tuong HCM" mamh="M05">8</monhoc>
+    </sinhvien>
+    <sinhvien hoten="Nguyen Van Hai" diachi="Ha Nam" lop="LTMT1" mssv="SV02">
+        <monhoc tinchi="3" tenmh="Java 1" mamh="M06">8</monhoc>
+        <monhoc tinchi="3" tenmh="JavaScrip" mamh="M07">2</monhoc>
+        <monhoc tinchi="2" tenmh="Cau truc DL" mamh="M03">6</monhoc>
+        <monhoc tinchi="3" tenmh="Ki thuat lap trinh" mamh="M04">5</monhoc>
+        <monhoc tinchi="2" tenmh="tu tuong HCM" mamh="M05">9</monhoc>
+    </sinhvien>
+    <sinhvien hoten="Nguyen Van Ba" diachi="Ha Noi" lop="LTMT2" mssv="SV03">
+        <monhoc tinchi="3" tenmh="Java 1" mamh="M01">7</monhoc>
+        <monhoc tinchi="3" tenmh="JavaScrip" mamh="M02">9</monhoc>
+        <monhoc tinchi="2" tenmh="Cau truc DL" mamh="M03">6</monhoc>
+        <monhoc tinchi="3" tenmh="Ki thuat lap trinh" mamh="M04">8</monhoc>
+        <monhoc tinchi="2" tenmh="tu tuong HCM" mamh="M05">10</monhoc>
+    </sinhvien>
+</dsinhvien>

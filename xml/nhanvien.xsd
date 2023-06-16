@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+  <xs:element name="DanhSach">
+        <xs:complexType>
+            <xs:sequence>
+              
+               <xs:element name="DanhSachNV" maxOccurs = "10" minOccurs="2">
+                   <xs:complexType>
+                       <xs:sequence>
+                           <xs:element name="MNV" type="xs:string"/>
+
+                           <xs:element name="tennhanvien" type="xs:string"/>
+
+                           <xs:element name="ngaysinh" type="xs:date"/>
+
+                           <xs:element name="diachi" type="xs:string"/>
+
+                           <xs:element name="namtuyendung" type="xs:string"/>
+
+                           <xs:element name="luong" type="xs:string"/>
+
+                           <xs:element name="chucvu" type="xs:string"/>
+                       </xs:sequence>
+                   </xs:complexType>
+               </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="sach.xsl"?>
+<danhsach>
+    <tentieude id="123">
+        <tacgia>Nguyen Van A</tacgia>
+        <tieude>cong nghe xml</tieude>
+        <link>http://hunce.edu.vn/</link>
+        <ngayxuatban>28/07/2021</ngayxuatban>
+        <mota>la mot quyen sach hay 1 so hien nay</mota>
+    </tentieude>
+    <tentieude id="456">
+        <tacgia>Nguyen Van B</tacgia>
+        <tieude>lap trinh can ban</tieude>
+        <link>http://hunce.edu.vn/</link>
+        <ngayxuatban>28/07/2022</ngayxuatban>
+        <mota>la mot quyen sach khong hay so 1 hien nay</mota>
+    </tentieude>
+    <tentieude id="789">
+        <tacgia>Nguyen Van C</tacgia>
+        <tieude>300 bai code thieu nhi</tieude>
+        <link>http://hunce.edu.vn/</link>
+        <ngayxuatban>28/07/2012</ngayxuatban>
+        <mota>ngu xuan</mota>
+    </tentieude>
+</danhsach>

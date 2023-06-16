@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" >
+    <xs:complexType name="danhsachsinhvien">
+        <xs:sequence>
+            <xs:element name="sinhvien" maxOccurs="10" minOccurs="2">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="tensinhvien" type="xs:string" />
+                        <xs:element name="ngaysinh" type="xs:date" />
+                        <xs:element name="diachi" type="xs:string" />
+                        <xs:element name="sdt" type="xs:string" />
+                        <xs:element name="lophoc" type="xs:string" />
+                        <xs:element name="monhoc" type="xs:string" />
+                    </xs:sequence>
+
+                    <xs:attribute name="masv">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:masv">
+                                <xs:pattern value="[a-zA-Z]{2}[0-9]{2}" />
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:attribute>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>XML vs JavaScript</h1>
+    <a href="nhanvien.xml">Xem sinhvien.xml</a> <br />
+    <a href="" onclick="display()">Danh sách sinh viên</a> <br />
+    <button onclick=load()>theem</button>
+    <div id="kq"></div>
+  </body>
+</html>
+
+<script>
+  
+  var xmlDoc = null;
+  
+  function load() {
+    var xml = new XMLHttpRequest();
+    xml.open("GET","nhanvien.xml", false);
+    xml.send(null);
+    xmlDoc = xml.responseXML;
+  }
+
+  function display() {
+    var j = 1;
+    var sv = [];
+    var list = document.getElementsByTagName("dsnhanvien");
+    sv = document.getElementsByTagName("nhanvien");
+    var str = "<h3>danh sach sinh vien</h3>";
+    for (i = 0; i < sv.length; i++) {
+      var maso = sv[i].getAttribute("MNV");
+      var hoten = sv[i].getAttribute("tennhanvien");
+      var ngaysinh = sv[i].getAttribute("ngaysinh");
+      var diachi = sv[i].getAttribute("diachi");
+      var namtd = sv[i].getAttribute("namtuyendung");
+      var luong = sv[i].getAttribute("luong");
+      var chucvu = sv[i].getAttribute("chucvu");
+      str += j + ":" + maso + "-" + hoten + "-" + lop + "-" + diachi + "-" + namtd + "-" + chucvu + "<br>";
+      j++;
+    }
+    document.getElementById("kq").innerHTML = str;
+    load();
+  }
+
+  
+  // function bangdiem() {
+  //   // in ra bang diem cua sinh vien, nhap ma so
+  //   element = find(prompt("nhap ma so sinh vien"));
+  //   if (element !== null) {
+  //     list = element.childNodes;
+  //     j = 1;
+  //     str = "<h3>Bảng điểm của sinh viên</h3>";
+  //     str += hoten + "," +lop+ "<br><br>";
+  //     for (i = 0; i < list.length; i++) {
+  //       if (list[i].nodeType == 1) {
+  //         monhoc = list[i].getAttribute("tenmh");
+  //         diem = list[i].textContent;
+  //         str += j + "-" + monhoc + "-" + diem + "<br/>";
+  //         j++;
+  //       }
+  //     }
+  //     document.getElementById("kq").innerHTML = str;
+  //   } else {
+  //     clear();
+  //     alert("Không có thành viên này");
+  //   }
+  // }
+
+  // function clear() {
+  //   document.getElementById("kq").innerHTML = "";
+  // }
+
+  // function find(code) {
+  //   // tìm node sinhvien biết mã số sinh viên
+  //   node = null;
+  //   list = xmlDoc.document.getElementsbyTagName("sinhvien");
+  //   for (i = 0; i < list.length; i++) {
+  //     if (list[i].getAttribute("mssv") == code) {
+  //       node = list[i];
+  //       hoten = node.getAttribute("hoten");
+  //       lop = node.getAttribute("lop");
+  //       break;
+  //     }
+  //   }
+  //   return node;
+  // }
+  display();
+</script>

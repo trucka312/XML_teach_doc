@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="<UTF-8>"?>
+
+<dsnhanvien>
+  <nhanvien>
+    <msnv>SV01</msnv>
+    <hoten>Nguyen Van A</hoten>
+    <ngaysinh>01/01/2020</ngaysinh>
+    <diachi>phu tho</diachi>
+    <namtd>2012</namtd>
+    <diachi>phu tho</diachi>
+    <luong>88888</luong>
+    <chucvu>bao ve</chucvu>
+  </nhanvien>
+  <nhanvien>
+    <msnv>SV02</msnv>
+    <hoten>Nguyen Van B</hoten>
+    <ngaysinh>01/01/2021</ngaysinh>
+    <diachi>Ha noi</diachi>
+    <namtd>2013</namtd>
+    <diachi>hai phong</diachi>
+    <luong>88767</luong>
+    <chucvu>bac si</chucvu>
+  </nhanvien>
+  <nhanvien>
+    <msnv>SV03</msnv>
+    <hoten>Nguyen Van B</hoten>
+    <ngaysinh>01/01/2002</ngaysinh>
+    <diachi>hai duong</diachi>
+    <namtd>2082</namtd>
+    <diachi>HA dong</diachi>
+    <luong>9999</luong>
+    <chucvu>hoc sinh</chucvu>
+  </nhanvien>
+  <nhanvien>
+    <msnv>SV04</msnv>
+    <hoten>Nguyen Van D</hoten>
+    <ngaysinh>01/01/2092</ngaysinh>
+    <diachi>jsjsj</diachi>
+    <namtd>2014</namtd>
+    <diachi>Hoa Hai</diachi>
+    <luong>67767</luong>
+    <chucvu>ke toan</chucvu>
+  </nhanvien>
+  <nhanvien>
+    <msnv>SV05</msnv>
+    <hoten>Nguyen Van F</hoten>
+    <ngaysinh>01/01/3784</ngaysinh>
+    <diachi>HCM</diachi>
+    <namtd>2032</namtd>
+    <diachi>binh duong</diachi>
+    <luong>789898</luong>
+    <chucvu>HR</chucvu>
+  </nhanvien>
+</dsnhanvien>

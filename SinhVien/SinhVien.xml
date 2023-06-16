@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="SinhVien.xsl"?>
+<danhsachsinhvien>
+  <sinhvien masv="123">
+    <masinhvien>SV01</masinhvien>
+    <tensinhvien>Nguyen Van A</tensinhvien>
+    <ngaysinh>01/01/2020</ngaysinh>
+    <diachi>phu tho</diachi>
+    <sdt>099909000</sdt>
+    <lophoc>ltmt22</lophoc>
+    <monhoc>CTDL va GT</monhoc>
+  </sinhvien>
+  <sinhvien masv="456"><masinhvien>SV01</masinhvien><tensinhvien>Nguyen Van B</tensinhvien><ngaysinh>12/12/1223</ngaysinh><diachi>hai duong</diachi><sdt>90293028490</sdt><lophoc>ltmt22</lophoc><monhoc>CTDL va GT</monhoc>t&gt;
+    </sinhvien>
+  <sinhvien masv="789">
+    <masinhvien>SV01</masinhvien>
+    <tensinhvien>Nguyen Van C</tensinhvien>
+    <ngaysinh>30/01/2202</ngaysinh>
+    <diachi>ha noi</diachi>
+    <sdt>289382984</sdt>
+    <lophoc>ltmt22</lophoc>
+    <monhoc>CTDL va GT</monhoc>
+  </sinhvien>
+<sinhvien><masinhvien/><tensinhvien/><ngaysinh/><diachi/><sdt/><lophoc/><monhoc/></sinhvien><sinhvien><masinhvien>sv033</masinhvien><tensinhvien>mai anh thu</tensinhvien><ngaysinh>30/01/2002</ngaysinh><diachi>số 8, ngõ 296 Minh Khai, Hai Bà Trưng Hà Nội</diachi><sdt>0888409002</sdt><lophoc>ltmt4</lophoc><monhoc>lap trinh xml</monhoc></sinhvien><sinhvien><masinhvien>sv04</masinhvien><tensinhvien>hhh</tensinhvien><ngaysinh>a</ngaysinh><diachi>a</diachi><sdt>a</sdt><lophoc>a</lophoc><monhoc>a</monhoc></sinhvien><sinhvien><masinhvien>20201598</masinhvien><tensinhvien>mai anh thu</tensinhvien><ngaysinh>30/01/2001</ngaysinh><diachi>minh khai, ha noi</diachi><sdt>0888409002</sdt><lophoc>ltmt2</lophoc><monhoc/></sinhvien></danhsachsinhvien>
